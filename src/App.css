@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.div1
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-left: 3%;
+    background-color: antiquewhite;
+    border-radius: 1%;
+    box-shadow: 20px 25px 10px 15px rgb(91, 26, 26);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div2
+{
+    border: 1px solid black;
+    width: 35%;
+    text-align: center;
+    margin-left: 10%;
+    padding-left: 3%;
+    background-color: antiquewhite;
+    box-shadow: 20px 25px 10px 15px rgb(91, 26, 26);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputField
+{
+    width: 80%;
+    height: 45px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover
+{
+    background-color: greenyellow;
 }
-
-.App-link {
-  color: #61dafb;
+.btn
+{
+    
+    margin-left: 2%;
+    font-size: 40px;
+    background-color: rgba(255, 234, 0, 0.971);
+    border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.indivDiv1
+{
+    font-style: oblique;
+    color: darkorchid;
+    font-size: 20px;
+    background-color: floralwhite;
+    width: 89%;
+    border: 1px solid antiquewhite;
+}
+.indivDiv2
+{
+    font-size: 30px;
+    font-style: oblique;
+    color: darkorchid;
+    background-color: floralwhite;
+    width: 85.5%;
+    padding: 10px;
+    border: 1px solid antiquewhite;
+}
+.btnIndiv
+{
+    background-color: floralwhite;
+    color: darkblue;
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+.itemData
+{
+    
+    padding: 0.5%;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap; 
+    
+    align-content: center;
+}
+.navSelect
+{
+    background-color: floralwhite;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    width: 150px;
+    
 }
